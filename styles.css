@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.toparea {
+    margin: 0 !important;
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.secondnav {
+
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.secondnavlist {
+    list-style: none;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*  CSS de el logo */
+.logoarea {
+    display: flex;
+}
+
+.logopic {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Materiales/logo-verde.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.logotext {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* CSS de el centro de la barra */
+.divnav {
+    display: flex;
+    justify-content: center;
+}
+
+.navlist {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.navbar {
+
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #2a3342;
+}
+
+/* CSS de los botones a la derecha */
+
+.botones {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.ingresar {
+    background-color: white;
+    border-radius: 2px;
+    border: 0;
+    font-size: 15px;
+    max-height: 2.3rem;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.ingreso {
+    text-decoration: none;
+    color: black;
+}
+
+.registrar {
+    color: #f7f8f9;
+    background-color: #2ad167;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 15px;
+    max-height: 2.3rem;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: #93a1b6;
+}
+
+/* fin de nav bar */
+
+/* CSS de section 1 */
+section {
+    margin: 100px 0;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS del texto section 1  */
+
+.nuevotext {
+    color: #f7f8f9;
+    background-color: #2ad167;
+    padding: 8px;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 10px;
+}
+
+.section1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.maintext {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.subtext {
+    margin-top: 20px;
+    color: #93a1b6;
+}
+
+/* CSS de botones section 1 */
+
+.botonmanu {
+    padding: 5px;
+    height: 2.4rem;
+    width: 9rem;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.demobtn {
+    color: #f7f8f9;
+    background-color: #2ad167;
+    border: 0px;
+}
+
+.btnregistrar {
+    background-color: white !important;
+    border: 1px solid lightgray !important;
+    color: #93a1b6;
+}
+
+
+
+/* CSS de imagenes section 1 */
+
+.section1img {
+    width: 720px;
+    height: 720px;
+}
+
+.mainimage {
+    display: flex;
+    background-image: url(./Materiales/header.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    overflow: hidden;
+
+
+}
+
+.overlay1 {
+    width: 15%;
+    position: relative;
+    margin-top: -75%;
+    margin-left: 0%;
+}
+
+.overlay2 {
+    width: 15%;
+    position: relative;
+    margin-top: 78%;
+    margin-left: 72%;
+}
+
+
+.logo {
+    width: 23px;
+    height: 23px;
+
+}
+
+.marca {
+    margin: 50px 0 30px 0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.marcap {
+    font-size: 23px;
+    color: white;
+    margin: 0;
+}
+
+.listanav {
+    list-style: none;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.listanav li {
+    margin: 20px 80px;
+}
+
+footer {
+    margin-top: 50px;
+    color: #93a1b6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    background-color: #2a3342;
+}
+
+.copy {
+    margin-bottom: 50px;
+}
+
+.material-symbols-outlined {
+    margin-right: 7px;
+    color: #2ad167;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: #2ad167;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icono-tick {
+    position: relative;
+    top: 7px;
+}
+
+.precio {
+    font-size: 2.5rem;
+}
+
+.boton {
+    background-color: #2ad167 !important;
+    color: white !important;
+}
+
+.verde {
+    color: #2ad167 !important;
+}
+
+.mx-auto {
+    padding-left: 400px;
+}
+
+.precio {
+    /* width: 1045px !important;*/
+    padding-left: 30px !important;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.card-text {
+    color: #93a1b6;
+}
+
+#burguer {
+    display: none !important;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@media (max-width: 1250px) {
+    #producto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listanav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .maintext {
+        font-size: 35px;
+    }
+
+    .section1img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainimage {
+        width: 80%;
+    }
+
+    .toparea {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #burguer:hover {
+        cursor: pointer;
+    }
+
+    #burguer {
+        display: block !important;
+    }
+
+    .divnav {
+        display: none;
+    }
+
+    .botones {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .section1img {
+        height: 40vh;
+        margin-top: 60px;
+    }
+
+    .section1text {
+        margin: 0 15px;
+    }
+
+    .listanav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
